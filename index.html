@@ -736,6 +736,7 @@ function getSearchResults(query) {
 
                     var linkElement = document.createElement("a");
      console.log("hi");              linkElement.href = item.link;
+                  linkElement.style.zIndex = "99999999999999999999999999999999999";
                   
                   console.log("bye");
                     linkElement.innerText = "Result from " + new URL(item.link);
